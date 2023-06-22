@@ -13,7 +13,10 @@ const useStyles = createStyles((theme) => ({
     paddingRight: '40px',
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+    position: 'sticky',
+    top: 0,
+    zIndex: 99
   },
   notificationImg: {
     border: '0.25px solid #000000',
@@ -51,7 +54,7 @@ const useStyles = createStyles((theme) => ({
 const NavBar = () => {
   const { classes } = useStyles();
   return (
-    <Paper shadow="sm" className={classes.mainNavbarBox}>
+    <Paper shadow="sm" style={{ zIndex: '99px' }} className={classes.mainNavbarBox}>
       <Box>
         <Image width={202} height={58} src={Logo} alt="Random image" />
       </Box>
@@ -68,7 +71,7 @@ const NavBar = () => {
               <Text fw={500} className={classes.userNameTxt}>John Deo</Text>
               <Image width={11} height={11} pl={5} src={dwonArrow} />
             </Box>
-            <Box className={classes.profileNameSetting}>
+            <Box>
               <Text fw={500} className={classes.descriptionNameTxt}>Server</Text>
             </Box>
           </Box>

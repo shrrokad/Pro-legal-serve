@@ -7,7 +7,7 @@
         "state": "state",
         "City": "city",
         "country": "Country",
-        "zipCode": "Zip Code",
+        "zipCode": 530068,
         "phoneNumer": 1234567890,
         "firmSpeciality": "Family Law",
         "caseManagement": "Server Manager",
