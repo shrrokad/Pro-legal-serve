@@ -1,0 +1,19 @@
+{
+    "companyInformation": {
+        "operatingCompany":  "Pro Legal Serve",
+        "companyType": "B2B",
+        "LawFirmBussinessName": "Flash",
+        "address": "Company Address",
+        "state": "state",
+        "City": "city",
+        "country": "Country",
+        "zipCode": "Zip Code",
+        "phoneNumer": 1234567890,
+        "firmSpeciality": "Family Law",
+        "caseManagement": "Server Manager",
+        "accountManager": "Account Manager",
+        "newUserInvite": "Email",
+        "newUserAdded": "Email",
+        "paymentMethode": "Email"
+    }
+}
